@@ -1,7 +1,7 @@
 var Sequelize = require("sequelize");
 
 // Conexão com o Banco de dados
-var sequelize = new Sequelize('supermercado', 'root', '988118197', {
+var sequelize = new Sequelize('supermercado', 'root', 'YOUR_KEY', {
     host:"localhost",
     dialect: 'mysql'
 })
